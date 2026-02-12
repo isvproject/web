@@ -613,6 +613,50 @@ footer {
         display: none; /* Menyederhanakan tampilan mobile bagi pemula */
     }
 
+    /* --- TAMPILAN DESKTOP (Default) --- */
+.menu-toggle {
+    display: none; /* Sembunyikan tombol hamburger di Desktop */
+}
+
+/* --- TAMPILAN HP (Hanya aktif di bawah 768px) --- */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .nav-list {
+        display: none; /* Sembunyikan menu daftar di HP secara default */
+        flex-direction: column;
+        width: 100%;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 70px; /* Jarak dari atas header */
+        left: 0;
+        padding: 20px 0;
+        text-align: center;
+        border-bottom: 3px solid #0258c9;
+        z-index: 1001;
+    }
+
+    /* Ketika tombol diklik, JS akan menambah class 'active' untuk memunculkan menu */
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 15px 0;
+    }
+
     @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2.2rem;
@@ -642,4 +686,5 @@ footer {
     }
     
 }
+
 
