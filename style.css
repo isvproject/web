@@ -640,6 +640,6 @@ footer {
     .grid {
         grid-template-columns: 1fr; /* 1 kolom saja di HP agar tidak sesak */
     }
-}
     
 }
+
