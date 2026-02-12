@@ -700,9 +700,12 @@ nav {
     .nav-list.active {
         display: flex;
     }
+    .hero-content p {
+        font-size: 1.8rem;      /* Mengecilkan ukuran font sedikit agar pas di HP */
+        line-height: 1.2;       /* Mengatur jarak antar baris (1.2 adalah standar yang rapat) */
+        margin-bottom: 10px;    /* Jarak ke elemen di bawahnya */
 }
-    
-}
+
 
 
 
