@@ -701,10 +701,16 @@ nav {
         display: flex;
     }
     .hero-content p {
-        font-size: 1.8rem;      /* Mengecilkan ukuran font sedikit agar pas di HP */
-        line-height: 1.2;       /* Mengatur jarak antar baris (1.2 adalah standar yang rapat) */
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    ;      /* Mengecilkan ukuran font sedikit agar pas di HP */
+        line-height: 1;       /* Mengatur jarak antar baris (1.2 adalah standar yang rapat) */
         margin-bottom: 10px;    /* Jarak ke elemen di bawahnya */
+        color: #ffffff;
+    }
 }
+
 
 
 
