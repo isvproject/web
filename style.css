@@ -202,16 +202,6 @@ nav ul li a:hover {
 }
 
 /* Responsive: Jika dibuka di HP */
-@media (max-width: 768px) {
-    .hero-split {
-        flex-direction: column; /* Foto menumpuk atas-bawah di HP */
-        padding-top: 100px;
-    }
-    .hero-box {
-        width: 100%;
-        aspect-ratio: 3 / 4; /* Tetap konsisten 3:4 di HP */
-    }
-}
 /* --- LAYOUT KONTEN --- */
 .bottom{
     max-width: 1100px;
@@ -686,5 +676,6 @@ footer {
     }
     
 }
+
 
 
